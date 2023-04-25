@@ -123,4 +123,10 @@ h1 {
 
 ul li {
   list-style: none;
+}
+
+.container {
+  max-width: 70rem;
+  padding: 0 2em;
+  margin: 0 auto;
 }/*# sourceMappingURL=style.css.map */
