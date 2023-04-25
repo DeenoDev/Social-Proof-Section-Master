@@ -97,4 +97,19 @@ select {
 
 .attribution a {
   color: hsl(228, 45%, 44%);
+}
+
+body {
+  font-family: var(--ff-primary);
+  font-size: var(--fs-400);
+}
+
+h1 {
+  font-size: var(--fs-900);
+  color: var(--ff-primary-700);
+  line-height: 1;
+}
+
+.lead {
+  font-size: var(--fs-500);
 }/*# sourceMappingURL=style.css.map */
