@@ -152,6 +152,9 @@ ul li{
     font-weight: 800;
     padding: .5rem;
     border-radius: var(--br);
+    max-width: 25rem;
+    margin-left: auto;
+    margin-right: auto;
 
     &::before {
       content: '';
@@ -172,16 +175,19 @@ ul li{
 }
 
 .quotes {
+  --spacer: 2rem;
   blockquote {
-    --spacer: 2rem;
+    max-width: 25rem;
     background: var(--clr-primary-700);
     color: var(--clr-neutral-200);
     text-align: left;
     border-radius: var(--br);
     padding: var(--spacer);
+    margin: 0 auto;
   }
 
   img{
+    width: 3rem;
     border-radius: 50%;
     margin-right: var(--spacer);
   }
@@ -204,7 +210,7 @@ ul li{
 }
 
 .quote {
-  margin: var(--spacer);
+  margin-top: var(--spacer);
 }
 
 
