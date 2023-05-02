@@ -142,12 +142,12 @@ ul li {
 .ratings li::before {
   content: "";
   margin: 0 auto;
-  width: 30%;
+  width: 100px;
   height: 1rem;
   display: block;
-  background-color: yellow;
   background-image: url(images/icon-star.svg);
   margin-bottom: 0.5rem;
+  background-repeat: space;
 }
 
 .flow-content > * + * {
