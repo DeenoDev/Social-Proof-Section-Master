@@ -175,4 +175,16 @@ ul li {
 
 .a-center {
   align-items: center;
+}
+
+.name {
+  font-weight: 800;
+}
+
+.status {
+  color: var(--clr-primary-300);
+}
+
+.quote {
+  margin: var(--spacer);
 }/*# sourceMappingURL=style.css.map */
