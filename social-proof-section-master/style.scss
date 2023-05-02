@@ -161,14 +161,21 @@ ul li{
       margin-bottom: .5rem;
       background-repeat: space;
     }
-  }
-
-  
-  
+  }  
 }
 
 .flow-content > * + * {
   margin-top: var(--flow-space, 1rem);
+}
+
+.quotes {
+  blockquote {
+    background: var(--clr-primary-700);
+    color: var(--clr-neutral-200);
+    text-align: left;
+
+
+  }
 }
 
 
