@@ -15,6 +15,7 @@
   }
 }
 
+/*CSS Reset*/
 /* Box sizing rules */
 *,
 *::before,
@@ -89,6 +90,7 @@ select {
     scroll-behavior: auto !important;
   }
 }
+/*CSS Reset End */
 /* Attribution Styling*/
 .attribution {
   font-size: 11px;
@@ -129,4 +131,8 @@ ul li {
   max-width: 70rem;
   padding: 0 2em;
   margin: 0 auto;
+}
+
+.ratings li {
+  background: var(--clr-neutral-200);
 }/*# sourceMappingURL=style.css.map */
