@@ -145,9 +145,29 @@ ul li{
 
 .ratings {
   li{
+    color: var(--clr-primary-700);
     background: var(--clr-neutral-200);
+    font-weight: 800;
+    padding: .5rem;
+
+    &::before {
+      content: '';
+      margin: 0 auto;
+      width: 30%;
+      height: 1rem;
+      display: block;
+      background-color: yellow;
+      background-image: url(images/icon-star.svg);
+      margin-bottom: .5rem;
+    }
   }
+
   
+  
+}
+
+.flow-content > * + * {
+  margin-top: var(--flow-space, 1rem);
 }
 
 
