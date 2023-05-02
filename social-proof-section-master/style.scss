@@ -173,16 +173,27 @@ ul li{
 
 .quotes {
   blockquote {
+    --spacer: 2rem;
     background: var(--clr-primary-700);
     color: var(--clr-neutral-200);
     text-align: left;
     border-radius: var(--br);
-    padding: 2rem;
+    padding: var(--spacer);
+  }
+
+  img{
+    border-radius: 50%;
+    margin-right: var(--spacer);
+
   }
 }
 
 .split {
   display: flex;
+}
+
+.a-center{
+  align-items: center;
 }
 
 
