@@ -8,6 +8,7 @@
   --fs-400: .8125rem;
   --fs-500: .9625rem;
   --fs-900: 2rem;
+  --br: .5rem;
 }
 @media (min-width: 50em) {
   :root {
@@ -138,6 +139,7 @@ ul li {
   background: var(--clr-neutral-200);
   font-weight: 800;
   padding: 0.5rem;
+  border-radius: var(--br);
 }
 .ratings li::before {
   content: "";
@@ -158,4 +160,6 @@ ul li {
   background: var(--clr-primary-700);
   color: var(--clr-neutral-200);
   text-align: left;
+  border-radius: var(--br);
+  padding: 2rem;
 }/*# sourceMappingURL=style.css.map */

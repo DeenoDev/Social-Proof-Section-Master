@@ -13,6 +13,8 @@
     --fs-500: .9625rem;
     --fs-900: 2rem;
 
+    --br: .5rem;
+
     @media (min-width: 50em) {
       
       --fs-900: 3rem;
@@ -149,6 +151,7 @@ ul li{
     background: var(--clr-neutral-200);
     font-weight: 800;
     padding: .5rem;
+    border-radius: var(--br);
 
     &::before {
       content: '';
@@ -173,8 +176,8 @@ ul li{
     background: var(--clr-primary-700);
     color: var(--clr-neutral-200);
     text-align: left;
-
-
+    border-radius: var(--br);
+    padding: 2rem;
   }
 }
 
