@@ -162,4 +162,8 @@ ul li {
   text-align: left;
   border-radius: var(--br);
   padding: 2rem;
+}
+
+.split {
+  display: flex;
 }/*# sourceMappingURL=style.css.map */
