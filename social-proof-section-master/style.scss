@@ -194,8 +194,11 @@ ul li{
 }
 
 .split {
+  display: flex;
+  flex-direction: column;
   @media(min-width: 50em){
-    display: flex;}
+    display: flex;
+    gap: 1em;}
   
 }
 
