@@ -180,11 +180,11 @@ ul li {
 .split {
   display: flex;
   flex-direction: column;
+  gap: 1em;
 }
 @media (min-width: 50em) {
   .split {
-    display: flex;
-    gap: 1em;
+    flex-direction: row;
   }
 }
 
