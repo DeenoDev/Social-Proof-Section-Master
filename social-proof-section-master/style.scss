@@ -194,7 +194,9 @@ ul li{
 }
 
 .split {
-  display: flex;
+  @media(min-width: 50em){
+    display: flex;}
+  
 }
 
 .a-center{
