@@ -223,29 +223,37 @@ margin-top: var(--spacer);
 // Layout Styling
 
 main{
-  @media(min-width:50em){
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-  }
+  display: grid;
+  gap: 3rem;
 }
 
-.intro {
-  grid-column: 1 / 2;
-  @media(min-width:50em){
-    margin-left: 40px;
+@media (min-width: 50em){
+  main{
+  grid-template-columns: 1fr 1fr;
+  text-align: left;
   }
 
+  .intro {
+    grid-column: 1 / 2;
+    @media(min-width:50em){
+      margin-left: 40px;
+    }
+  
+  }
+  
+  .ratings {
+    grid-column: 2 / 3;
+    
+  }
+  
+  .quotes {
+    grid-column: 1 / -1;
+    
+  }
+
 }
 
-.ratings {
-  grid-column: 2 / 3;
-  
-}
 
-.quotes {
-  grid-column: 1 / -1;
-  
-}
 
 
 
