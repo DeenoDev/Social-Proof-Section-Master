@@ -220,4 +220,14 @@ color: var(--clr-primary-300);
 margin-top: var(--spacer);
 }
 
+// Layout Styling
+
+main{
+  @media(min-width:50em){
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+
 
