@@ -155,7 +155,7 @@ li{
   color: var(--clr-primary-700);
   background: var(--clr-neutral-200);
   font-weight: 800;
-  padding: .5rem;
+  padding: .75rem 2rem;
   border-radius: var(--br);
   max-width: 25rem;
   margin-left: auto;
@@ -178,9 +178,10 @@ li{
   @media (min-width: 50em){
     display: flex;
     padding: 1em 3em;
+    align-items: center;
 
     &::before{
-      margin: 0;
+      margin: 0 1.5rem 0 0;
     }
   }
 }  
@@ -240,12 +241,12 @@ margin-top: var(--spacer);
 
 main{
   display: grid;
-  gap: 3rem;
+  gap: 3rem 1rem;
 }
 
 @media (min-width: 50em){
   main{
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1.5fr;
   text-align: left;
   }
 
@@ -259,6 +260,7 @@ main{
   
   .ratings {
     grid-column: 2 / 3;
+    align-self: center;
     
   }
   

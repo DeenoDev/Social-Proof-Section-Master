@@ -144,7 +144,7 @@ ul li {
   color: var(--clr-primary-700);
   background: var(--clr-neutral-200);
   font-weight: 800;
-  padding: 0.5rem;
+  padding: 0.75rem 2rem;
   border-radius: var(--br);
   max-width: 25rem;
   margin-left: auto;
@@ -164,9 +164,10 @@ ul li {
   .ratings li {
     display: flex;
     padding: 1em 3em;
+    align-items: center;
   }
   .ratings li::before {
-    margin: 0;
+    margin: 0 1.5rem 0 0;
   }
 }
 
@@ -221,12 +222,12 @@ ul li {
 
 main {
   display: grid;
-  gap: 3rem;
+  gap: 3rem 1rem;
 }
 
 @media (min-width: 50em) {
   main {
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1.5fr;
     text-align: left;
   }
   .intro {
@@ -241,6 +242,7 @@ main {
 @media (min-width: 50em) {
   .ratings {
     grid-column: 2/3;
+    align-self: center;
   }
 }
 @media (min-width: 50em) {
