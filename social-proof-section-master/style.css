@@ -209,4 +209,21 @@ ul li {
     display: grid;
     grid-template-columns: 1fr 1fr;
   }
+}
+
+.intro {
+  grid-column: 1/2;
+}
+@media (min-width: 50em) {
+  .intro {
+    margin-left: 40px;
+  }
+}
+
+.ratings {
+  grid-column: 2/3;
+}
+
+.quotes {
+  grid-column: 1/-1;
 }/*# sourceMappingURL=style.css.map */

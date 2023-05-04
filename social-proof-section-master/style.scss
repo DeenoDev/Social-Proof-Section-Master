@@ -229,5 +229,23 @@ main{
   }
 }
 
+.intro {
+  grid-column: 1 / 2;
+  @media(min-width:50em){
+    margin-left: 40px;
+  }
+
+}
+
+.ratings {
+  grid-column: 2 / 3;
+  
+}
+
+.quotes {
+  grid-column: 1 / -1;
+  
+}
+
 
 
