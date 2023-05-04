@@ -128,6 +128,11 @@ margin-left: auto;
 margin-right: auto;
 margin-bottom: 1em;
 font-weight: 800;
+
+@media (max-width:50em){
+  margin-left: auto;
+  margin-right: auto;
+}
 }
 
 .lead {
@@ -155,6 +160,8 @@ li{
   max-width: 25rem;
   margin-left: auto;
   margin-right: auto;
+  
+  
 
   &::before {
     content: '';
@@ -166,6 +173,15 @@ li{
     background-image: url(images/icon-star.svg);
     margin-bottom: .5rem;
     background-repeat: space;
+  }
+
+  @media (min-width: 50em){
+    display: flex;
+    padding: 1em 3em;
+
+    &::before{
+      margin: 0;
+    }
   }
 }  
 }

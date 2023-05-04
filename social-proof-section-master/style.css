@@ -119,6 +119,12 @@ h1 {
   margin-bottom: 1em;
   font-weight: 800;
 }
+@media (max-width: 50em) {
+  h1 {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
 
 .lead {
   font-size: var(--fs-500);
@@ -153,6 +159,15 @@ ul li {
   background-image: url(images/icon-star.svg);
   margin-bottom: 0.5rem;
   background-repeat: space;
+}
+@media (min-width: 50em) {
+  .ratings li {
+    display: flex;
+    padding: 1em 3em;
+  }
+  .ratings li::before {
+    margin: 0;
+  }
 }
 
 .flow-content > * + * {
