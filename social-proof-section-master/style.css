@@ -145,7 +145,8 @@ ul li {
   color: var(--clr-primary-700);
   background: var(--clr-neutral-200);
   font-weight: 800;
-  padding: 0.75rem 0rem;
+  font-size: var(--fs-400);
+  padding: 0.75rem 2rem;
   border-radius: var(--br);
   max-width: 25rem;
   margin-left: auto;
@@ -164,7 +165,7 @@ ul li {
 @media (min-width: 50em) {
   .ratings li {
     display: flex;
-    padding: 1em 3em;
+    padding: 1em 2.5em;
     align-items: center;
   }
   .ratings li::before {
@@ -246,19 +247,10 @@ main {
   .intro {
     grid-column: 1/2;
   }
-}
-@media (min-width: 50em) and (min-width: 50em) {
-  .intro {
-    margin-left: 40px;
-  }
-}
-@media (min-width: 50em) {
   .ratings {
     grid-column: 2/3;
     align-self: center;
   }
-}
-@media (min-width: 50em) {
   .quotes {
     grid-column: 1/-1;
   }
