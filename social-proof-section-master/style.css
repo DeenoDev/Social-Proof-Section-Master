@@ -169,6 +169,12 @@ ul li {
   .ratings li::before {
     margin: 0 1.5rem 0 0;
   }
+  .ratings li:first-of-type {
+    margin-left: 0;
+  }
+  .ratings lilast-of-type {
+    margin-right: 0;
+  }
 }
 
 .flow-content > * + * {

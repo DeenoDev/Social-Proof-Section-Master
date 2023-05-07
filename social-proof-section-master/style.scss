@@ -183,6 +183,14 @@ li{
     &::before{
       margin: 0 1.5rem 0 0;
     }
+
+    &:first-of-type {
+      margin-left: 0;
+    }
+
+    &last-of-type {
+      margin-right: 0;
+    }
   }
 }  
 }
