@@ -170,10 +170,10 @@ ul li {
     margin: 0 1.5rem 0 0;
   }
   .ratings li:first-of-type {
-    margin-left: 0;
+    transform: translateX(-2rem);
   }
-  .ratings lilast-of-type {
-    margin-right: 0;
+  .ratings li:last-of-type {
+    transform: translateX(2rem);
   }
 }
 

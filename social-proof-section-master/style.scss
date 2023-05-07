@@ -185,11 +185,11 @@ li{
     }
 
     &:first-of-type {
-      margin-left: 0;
+      transform: translateX(-2rem);
     }
 
-    &last-of-type {
-      margin-right: 0;
+    &:last-of-type {
+      transform: translateX(2rem);
     }
   }
 }  
