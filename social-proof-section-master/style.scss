@@ -211,11 +211,11 @@ li {
   margin: 0 auto;
 
   &:nth-child(2){
-    margin-top: 2rem;
+    transform:translateY(2rem) ;
   }
 
   &:nth-child(3){
-    margin-top: 6rem;
+    transform:translateY(6rem) ;
   }
 }
 
