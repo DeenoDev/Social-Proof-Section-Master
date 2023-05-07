@@ -122,7 +122,7 @@ background-image: url("data:image/svg+xml,%3Csvg width='584' height='362' xmlns=
 background-repeat: no-repeat;
 background-position: top left, bottom right;
 // background-position: center center;
-background-size: 50%;
+background-size: max(50%, 400px);
 
 }
 
