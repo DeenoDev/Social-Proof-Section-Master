@@ -107,6 +107,7 @@ body {
   font-size: var(--fs-400);
   padding-top: 5rem;
   text-align: center;
+  background-image: url("data:image/svg+xml,%3Csvg width='584' height='362' xmlns='http://www.w3.org/2000/svg'%3E%3Cdefs%3E%3ClinearGradient x1='100%25' y1='69.212%25' x2='9.399%25' y2='32.183%25' id='a'%3E%3Cstop stop-color='%238A4389' stop-opacity='0' offset='0%25'/%3E%3Cstop stop-color='%23512051' offset='100%25'/%3E%3Cstop stop-color='%23512051' offset='100%25'/%3E%3Cstop stop-color='%23512051' offset='100%25'/%3E%3C/linearGradient%3E%3C/defs%3E%3Cpath d='M0 362c40.022-82.8 115.736-135.154 227.141-157.064 167.108-32.864 103.85-66.012 185.949-131.796C467.823 29.284 524.793 4.904 584 0v362H0z' transform='rotate(180 292 181)' fill='url(%23a)' fill-rule='evenodd' opacity='0.5'/%3E%3C/svg%3E");
 }
 
 h1 {
@@ -144,7 +145,7 @@ ul li {
   color: var(--clr-primary-700);
   background: var(--clr-neutral-200);
   font-weight: 800;
-  padding: 0.75rem 2rem;
+  padding: 0.75rem 0rem;
   border-radius: var(--br);
   max-width: 25rem;
   margin-left: auto;
@@ -194,7 +195,7 @@ ul li {
   margin: 0 auto;
 }
 .quotes li:nth-child(2) {
-  transform: translateY(2rem);
+  transform: translateY(3rem);
 }
 .quotes li:nth-child(3) {
   transform: translateY(6rem);
