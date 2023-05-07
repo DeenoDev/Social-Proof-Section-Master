@@ -247,10 +247,19 @@ main {
   .intro {
     grid-column: 1/2;
   }
+}
+@media (min-width: 50em) and (min-width: 50em) {
+  .intro {
+    margin-left: 40px;
+  }
+}
+@media (min-width: 50em) {
   .ratings {
     grid-column: 2/3;
     align-self: center;
   }
+}
+@media (min-width: 50em) {
   .quotes {
     grid-column: 1/-1;
   }
