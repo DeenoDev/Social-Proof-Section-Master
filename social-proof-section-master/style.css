@@ -156,16 +156,6 @@ ul li {
   margin-left: auto;
   margin-right: auto;
 }
-.ratings li::before {
-  content: "";
-  margin: 0 auto;
-  width: 100px;
-  height: 1rem;
-  display: block;
-  background-image: url(images/icon-star.svg);
-  margin-bottom: 0.5rem;
-  background-repeat: space;
-}
 @media (min-width: 50em) {
   .ratings li {
     display: flex;
@@ -181,6 +171,9 @@ ul li {
   .ratings li:last-of-type {
     transform: translateX(3rem);
   }
+}
+.ratings img {
+  display: inline-block;
 }
 
 .flow-content > * + * {
