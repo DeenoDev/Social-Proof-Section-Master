@@ -210,7 +210,11 @@ ul li {
 .quotes img {
   width: 3rem;
   border-radius: 50%;
-  margin-right: var(--spacer);
+}
+@media (min-width: 50em) {
+  .quotes img {
+    margin-right: var(--spacer);
+  }
 }
 
 .split {
