@@ -172,7 +172,17 @@ ul li {
   }
 }
 .ratings img {
-  margin: 0 0.125rem;
+  margin: 0 0.25rem 0.25rem;
+}
+@media (min-width: 50em) {
+  .ratings img {
+    margin: -0.25rem 0.5rem 0 0;
+  }
+}
+
+.stars {
+  display: flex;
+  justify-content: center;
 }
 
 .flow-content > * + * {
@@ -259,7 +269,4 @@ main {
   .quotes {
     grid-column: 1/-1;
   }
-}
-.stars {
-  display: flex;
 }/*# sourceMappingURL=style.css.map */
