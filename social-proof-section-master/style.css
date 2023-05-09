@@ -159,7 +159,6 @@ ul li {
 @media (min-width: 50em) {
   .ratings li {
     display: flex;
-    padding: 1em 2.5em;
     align-items: center;
   }
   .ratings li::before {
@@ -173,7 +172,7 @@ ul li {
   }
 }
 .ratings img {
-  display: inline-block;
+  margin: 0 0.125rem;
 }
 
 .flow-content > * + * {
@@ -260,4 +259,7 @@ main {
   .quotes {
     grid-column: 1/-1;
   }
+}
+.stars {
+  display: flex;
 }/*# sourceMappingURL=style.css.map */
